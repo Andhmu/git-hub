@@ -1,0 +1,58 @@
+
+  .location {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #526d82;
+    color: #dde6ed;
+  }
+  
+  .residents-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .resident {
+    width: 300px;
+    height: 140px;
+    border: 1px solid #526d82;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    color: #526d82;
+  }
+  
+  .resident h3 {
+    margin-top: 5px;
+  }
+  
+  .resident-alive {
+    background-color: #c7f0db;
+  }
+  .resident-dead {
+    background-color: #f0c7c7;
+  }
+  .resident-unknown {
+    background-color: #ffffff;
+  }
+  
+  .resident-left {
+    flex: 2;
+    min-width: 120px;
+  }
+  
+  .resident-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .resident-right {
+    flex: 3;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
